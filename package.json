@@ -1,4 +1,5 @@
 {
+	"private": true,
 	"name": "phpbb-web-push-notifications",
 	"author": "phpBB Limited",
 	"license": "GPL-2.0",
