@@ -78,7 +78,7 @@ class ext extends \phpbb\extension\base
 	 */
 	protected function check_php_version()
 	{
-		if (phpbb_version_compare(PHP_VERSION_ID, '70300', '<'))
+		if (PHP_VERSION_ID < 70300)
 		{
 			$this->errors[] = 'PHP_VERSION_ERROR';
 		}
