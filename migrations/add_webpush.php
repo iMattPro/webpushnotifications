@@ -79,14 +79,4 @@ class add_webpush extends migration
 			]]],
 		];
 	}
-
-	public function revert_data(): array
-	{
-		return [
-			['config.remove', ['wpn_webpush_enable']],
-			['config.remove', ['wpn_webpush_vapid_public']],
-			['config.remove', ['wpn_webpush_vapid_private']],
-			['module.remove', ['acp', 'ACP_BOARD_CONFIGURATION', 'ACP_WEBPUSH_EXT_SETTINGS']]
-		];
-	}
 }
