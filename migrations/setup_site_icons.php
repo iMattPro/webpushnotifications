@@ -19,7 +19,7 @@ class setup_site_icons extends container_aware_migration
 	private const NEW_ICON_DIR = 'images/site_icons';
 	private const OLD_ICON_DIR = 'images/icons';
 
-	/* @var filesystem $filesystem */
+	/** @var filesystem $filesystem */
 	private $filesystem;
 
 	public function effectively_installed()

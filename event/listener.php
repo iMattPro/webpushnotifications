@@ -29,25 +29,25 @@ class listener implements EventSubscriberInterface
 	/** @var config */
 	protected $config;
 
-	/* @var controller_helper */
+	/** @var controller_helper */
 	protected $controller_helper;
 
-	/* @var form_helper */
+	/** @var form_helper */
 	protected $form_helper;
 
-	/* @var language */
+	/** @var language */
 	protected $language;
 
 	/** @var request_interface */
 	protected $request;
 
-	/* @var template */
+	/** @var template */
 	protected $template;
 
 	/** @var user */
 	protected $user;
 
-	/* @var manager */
+	/** @var manager */
 	protected $phpbb_notifications;
 
 	/**
