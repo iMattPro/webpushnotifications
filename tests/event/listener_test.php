@@ -19,10 +19,10 @@ class listener_test extends \phpbb_database_test_case
 	/** @var \phpbb\webpushnotifications\event\listener */
 	protected $listener;
 
-	/* @var \PHPUnit\Framework\MockObject\MockObject|\phpbb\controller\helper */
+	/** @var \PHPUnit\Framework\MockObject\MockObject|\phpbb\controller\helper */
 	protected $controller_helper;
 
-	/* @var \phpbb\webpushnotifications\form\form_helper */
+	/** @var \phpbb\webpushnotifications\form\form_helper */
 	protected $form_helper;
 
 	/** @var \FastImageSize\FastImageSize|\PHPUnit\Framework\MockObject\MockObject  */
@@ -40,7 +40,7 @@ class listener_test extends \phpbb_database_test_case
 	/** @var \phpbb\webpushnotifications\notification\method\webpush */
 	protected $notification_method_webpush;
 
-	/* @var \PHPUnit\Framework\MockObject\MockObject|\phpbb\notification\manager */
+	/** @var \PHPUnit\Framework\MockObject\MockObject|\phpbb\notification\manager */
 	protected $phpbb_notifications;
 
 	/** @var string */
