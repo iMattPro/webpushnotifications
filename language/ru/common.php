@@ -38,9 +38,9 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, [
-	'PWA_INSTALL_BUTTON'		=> 'Install app',
-	'PWA_INSTALL_DISMISS'		=> 'Close',
-	'PWA_INSTALL_SUBTITLE'		=> 'Add to home screen',
-	'PWA_INSTALL_SUBTITLE_IOS'	=> 'Tap Share and then “Add to Home Screen” to install this app.',
+	'PWA_INSTALL_BUTTON'		=> 'Установить приложение',
+	'PWA_INSTALL_DISMISS'		=> 'Закрыть',
+	'PWA_INSTALL_SUBTITLE'		=> 'Добавить на главный экран',
+	'PWA_INSTALL_SUBTITLE_IOS'	=> 'Нажмите «Поделиться», а затем «На экран „Домой“», чтобы установить это приложение.',
 	'WEBPUSH_INVALID_ENDPOINT'	=> 'Конечная точка push-уведомления не принадлежит известному сервису push-уведомлений.',
 ]);
