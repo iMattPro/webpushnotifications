@@ -22,7 +22,7 @@ class setup_site_icons extends container_aware_migration
 	/** @var filesystem $filesystem */
 	private $filesystem;
 
-	public function effectively_installed()
+	public function effectively_installed(): bool
 	{
 		return $this->get_filesystem()->exists($this->container->getParameter('core.root_path') . self::NEW_ICON_DIR);
 	}

@@ -14,7 +14,7 @@ use phpbb\db\migration\migration;
 
 class fix_acp_module_auth extends migration
 {
-	public function effectively_installed()
+	public function effectively_installed(): bool
 	{
 		$sql = 'SELECT module_id
 			FROM ' . $this->table_prefix . "modules
